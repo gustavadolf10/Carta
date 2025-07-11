@@ -110,7 +110,7 @@ function getQueryParams() {
   return params;
 }
 
-let para = "Mercy"; // valor por defecto
+let para = "Maylet"; // valor por defecto
 let mensaje = `Ella dice que no es bonita, pero la verdad es que es hermosa. No entiendo
 cómo no puedes ver tu belleza cuando para mí eres perfecta. Cada vez
 que miro tu foto en mi celular al amanecer, siento que el día empieza de la
@@ -144,7 +144,7 @@ let mensajeAnim = {
   timer: null,
   velocidad: 70 // ms por letra (antes 28)
 };
-let loadingText = "Para ti Mercy "; // valor por defecto para loading
+let loadingText = "Para ti Maylet "; // valor por defecto para loading
 
 // --- Papel 3D DOM y animación ---
 const papel3d = document.getElementById('papel3d');
@@ -789,7 +789,7 @@ window.addEventListener('DOMContentLoaded', () => {
   if (params.loading) {
     loadingText = params.loading;
   } else {
-    loadingText = "Para ti Mercy";
+    loadingText = "Para ti Maylet";
   }
 
   setCarta3D(0);
